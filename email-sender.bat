@@ -1,0 +1,2 @@
+java -jar email-sender.jar --host "smtp.gmail.com" --port "587" --ssl --user "user@example.com" --password "password123" --to "recipient@example.com" --subject "E-mail subject" --message "E-mail body, it can be in html" --attachment "./test.xls"
+pause
